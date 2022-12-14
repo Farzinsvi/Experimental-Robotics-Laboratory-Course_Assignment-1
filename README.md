@@ -4,6 +4,7 @@
 
 ## Brief introduction
 ![Sequence Diagram](cluedo_game.JPG)
+
 The aim of this assignment is to design a software behavioural architecture which simulates an autonomous Cluedo game. The robot which is the player wants to find who is the murder, where he killed the victime and which weapon has been used. According to that it goes around to an appartement looking for hints, makes hypotesis about the murder and reasons about these. Once it finds a complete hypotesis (which must contains one person, one place and one weapon) it goes to the oracle room and asks if the hypotesis is correct. If hypotesis is not correct robot goes on looking for hints otherwise game finishes. The rooms, the people and the weapons of the game have been chosen accordig to the traditional game.
 
 
