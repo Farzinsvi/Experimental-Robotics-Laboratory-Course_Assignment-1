@@ -98,18 +98,4 @@ procedure is calculate according to that assuption. I have decided to use the ac
 8. A possible improvement is for example find differents way to perceive hints for example speak with someone or see something. The architecture should chose randomly between these possible behaviors. 
 9. The robot collect only one hint each time and then check if there is a consistent hypotesis. A simple modification should be collect a random number of hints and the check consistency. This is possible through a variable counter shared by **Out_Room** and **Inside_Room** state. I think the two options are more or less equivalent
 10. **RandomRoomServer.py** at this level of implementation is useless. It can be easly replaced with a function on the **FSM.py**. I have decided to divide this module firsly because I think it has a specific purpose different from the state machine aim. Moreover in a future should be replace with a specific behavior, for example if the robot decide the room to visit asking to someone.
-    
-
-## Author and Contact
-**Alice Nardelli**
-**s4528692**
-**alice.nardelli98@gmail.com**
-**4528692@studenti.unige.it**
-
-
-
-
-
-
-
-
+ 
