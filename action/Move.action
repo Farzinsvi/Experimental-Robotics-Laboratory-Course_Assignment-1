@@ -1,0 +1,11 @@
+string destination
+int64 goal_x
+int64 goal_y
+int64 actual_x
+int64 actual_y
+---
+bool arrived
+---
+float64 feed_x
+float64 feed_y
+float64 yaw

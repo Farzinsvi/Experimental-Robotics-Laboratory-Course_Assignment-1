@@ -1,0 +1,6 @@
+correct_hypotesis: 'HP3'
+no_hints: 17
+no_room: 9
+current_hypotesis: ['','','','']
+ontology: 'http://www.emarolab.it/cluedo-ontology'
+ontology_path: '/root/ros_ws/src/exprob_ass1/cluedo_ontology.owl'
