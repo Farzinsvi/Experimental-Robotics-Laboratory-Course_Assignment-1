@@ -1,0 +1,78 @@
+\hypertarget{namespace_f_s_m}{}\doxysection{F\+SM Namespace Reference}
+\label{namespace_f_s_m}\index{FSM@{FSM}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_f_s_m_1_1_inside___room}{Inside\+\_\+\+Room}}
+\item 
+class \mbox{\hyperlink{class_f_s_m_1_1_oracle___room}{Oracle\+\_\+\+Room}}
+\item 
+class \mbox{\hyperlink{class_f_s_m_1_1_out___room}{Out\+\_\+\+Room}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespace_f_s_m_a51a728d06ceb354611cb4bcb826ff9a6}{ontology\+\_\+interaction}} (command, primary\+\_\+command\+\_\+spec, secondary\+\_\+command\+\_\+spec, arg)
+\item 
+def \mbox{\hyperlink{namespace_f_s_m_a662184f8c9b6a8b393594e27956b6ea6}{menage\+\_\+response}} (st)
+\item 
+def \mbox{\hyperlink{namespace_f_s_m_acc99b577ee61be1b7cc0e2baae140224}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Module:
+ FSM
+Author:
+Alice Nardelli alice.nardelli98@gmail.com
+ROS node to implement the finite state machine. Inside this node is contained the entire simulation
+Service Client:
+/random_room_service to get a random room
+/armor_interface_srv to interface with the ontology
+/check_correct_service to check if an hypotesis is correct
+/perceive_hints_service to perceive hints
+/announce_service to announce an hypotesis
+Action Client:
+/move_action_server to simulate the movement
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespace_f_s_m_acc99b577ee61be1b7cc0e2baae140224}\label{namespace_f_s_m_acc99b577ee61be1b7cc0e2baae140224}} 
+\index{FSM@{FSM}!main@{main}}
+\index{main@{main}!FSM@{FSM}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily def F\+S\+M.\+main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}  documentation of the main function
+  it is used to inizialize all global variables
+  then is load the ontology, add the new class incorrect and set all classes as mutually disjoint
+  finally the states of the FSM are defined and transition between states too\end{DoxyVerb}
+ \mbox{\Hypertarget{namespace_f_s_m_a662184f8c9b6a8b393594e27956b6ea6}\label{namespace_f_s_m_a662184f8c9b6a8b393594e27956b6ea6}} 
+\index{FSM@{FSM}!menage\_response@{menage\_response}}
+\index{menage\_response@{menage\_response}!FSM@{FSM}}
+\doxysubsubsection{\texorpdfstring{menage\_response()}{menage\_response()}}
+{\footnotesize\ttfamily def F\+S\+M.\+menage\+\_\+response (\begin{DoxyParamCaption}\item[{}]{st }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}         Description of the menage_response function:
+         This function is used to menage the strings retrieved by aRMOR service
+         Args:
+           st: string to manage
+         Returns:
+           st: arranged string\end{DoxyVerb}
+ \mbox{\Hypertarget{namespace_f_s_m_a51a728d06ceb354611cb4bcb826ff9a6}\label{namespace_f_s_m_a51a728d06ceb354611cb4bcb826ff9a6}} 
+\index{FSM@{FSM}!ontology\_interaction@{ontology\_interaction}}
+\index{ontology\_interaction@{ontology\_interaction}!FSM@{FSM}}
+\doxysubsubsection{\texorpdfstring{ontology\_interaction()}{ontology\_interaction()}}
+{\footnotesize\ttfamily def F\+S\+M.\+ontology\+\_\+interaction (\begin{DoxyParamCaption}\item[{}]{command,  }\item[{}]{primary\+\_\+command\+\_\+spec,  }\item[{}]{secondary\+\_\+command\+\_\+spec,  }\item[{}]{arg }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}       Description of the ontology_interaction function:
+       This function is used to interface with the ontology through the aRMOR action server. It get as argument all fields of the ArmorDirective message to fill.
+       Args:
+          command
+          primary_command_spec
+          secondary_command_spec
+          arg
+       Returns:
+          msg(ArmorDirectiveRes)\end{DoxyVerb}
+ 

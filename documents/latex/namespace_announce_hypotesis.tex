@@ -1,0 +1,43 @@
+\hypertarget{namespace_announce_hypotesis}{}\doxysection{Announce\+Hypotesis Namespace Reference}
+\label{namespace_announce_hypotesis}\index{AnnounceHypotesis@{AnnounceHypotesis}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespace_announce_hypotesis_a06c7fb19fb807b4efd46b8901006b46b}{announce\+\_\+clbk}} (req)
+\item 
+def \mbox{\hyperlink{namespace_announce_hypotesis_a526cec709d1e657640ca6fdd6f312fea}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Module: 
+    AnnounceHypotesis
+Author: 
+    Alice Nardelli alice.nardelli98@gmail.com
+ROS nodes used for simulating the robot announcement. Given an hypotesis it announces it simply printing on terminal.
+Service :
+    /announce_service to get the hypotesis to announce
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespace_announce_hypotesis_a06c7fb19fb807b4efd46b8901006b46b}\label{namespace_announce_hypotesis_a06c7fb19fb807b4efd46b8901006b46b}} 
+\index{AnnounceHypotesis@{AnnounceHypotesis}!announce\_clbk@{announce\_clbk}}
+\index{announce\_clbk@{announce\_clbk}!AnnounceHypotesis@{AnnounceHypotesis}}
+\doxysubsubsection{\texorpdfstring{announce\_clbk()}{announce\_clbk()}}
+{\footnotesize\ttfamily def Announce\+Hypotesis.\+announce\+\_\+clbk (\begin{DoxyParamCaption}\item[{}]{req }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Description of the callback:
+This function retrieves the request field of the Announcement message. Inside the custom message is present the istances of classes PERSON, PLACE, WEAPON 
+corresponding to the hypothesis to announce
+Args:
+  srv(Announcement): data retrieved by */announce_service* topic
+Returns:
+  srv(Announcement):True
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespace_announce_hypotesis_a526cec709d1e657640ca6fdd6f312fea}\label{namespace_announce_hypotesis_a526cec709d1e657640ca6fdd6f312fea}} 
+\index{AnnounceHypotesis@{AnnounceHypotesis}!main@{main}}
+\index{main@{main}!AnnounceHypotesis@{AnnounceHypotesis}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily def Announce\+Hypotesis.\+main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+

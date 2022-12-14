@@ -1,0 +1,83 @@
+\hypertarget{namespace_moving}{}\doxysection{Moving Namespace Reference}
+\label{namespace_moving}\index{Moving@{Moving}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespace_moving_a57c214742593b60bc32df096209d78d8}{action\+\_\+clbk}} (req)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespace_moving_a8cdb25ca5d7025d2b53d31440c8cd647}{anonymous}}
+\item 
+\mbox{\hyperlink{namespace_moving_ac3a0b28994021e44ac8d8beeba0a02ae}{Move\+Action}}
+\item 
+\mbox{\hyperlink{namespace_moving_a5f0f55bade48fea8296fff06102d2ddc}{execute\+\_\+cb}}
+\item 
+\mbox{\hyperlink{namespace_moving_a3c21f78d9ea8df471386275f7f17797c}{action\+\_\+clbk}}
+\item 
+\mbox{\hyperlink{namespace_moving_a6dcbd3ff3ebf13e07ae21cd69c2c4a4a}{auto\+\_\+start}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Module:
+   Moving
+Author:
+  Alice Nardelli alice.nardelli98@gmail.com
+ROS nodes used to similate robot movement
+Action Service :
+  /move_action_server to simulate the robot movement from a starting point to a goal one
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespace_moving_a57c214742593b60bc32df096209d78d8}\label{namespace_moving_a57c214742593b60bc32df096209d78d8}} 
+\index{Moving@{Moving}!action\_clbk@{action\_clbk}}
+\index{action\_clbk@{action\_clbk}!Moving@{Moving}}
+\doxysubsubsection{\texorpdfstring{action\_clbk()}{action\_clbk()}}
+{\footnotesize\ttfamily def Moving.\+action\+\_\+clbk (\begin{DoxyParamCaption}\item[{}]{req }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Description of the callback:
+This function retrieves the goal of the custom MoveAction. Inside the goal are specified the actual and the goal position of the robot and the name of the destination room.
+Movement is simulate as a wait procedure. The wait is proportionale to the length of the path. The path is a straigth line between the two points. 
+The action continously provides as feedbact actual (x,y,yaw) of the robot.
+Args:
+   msg(MoveGoal): goal retrieved by */move_action_server/goal* topic
+Returns:
+   msg(MoveFeedback): actual (x,y,yaw) of the robot published on */move_action_server/feedback* topic 
+   msg(MoveResult): true
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{namespace_moving_a3c21f78d9ea8df471386275f7f17797c}\label{namespace_moving_a3c21f78d9ea8df471386275f7f17797c}} 
+\index{Moving@{Moving}!action\_clbk@{action\_clbk}}
+\index{action\_clbk@{action\_clbk}!Moving@{Moving}}
+\doxysubsubsection{\texorpdfstring{action\_clbk}{action\_clbk}}
+{\footnotesize\ttfamily Moving.\+action\+\_\+clbk}
+
+\mbox{\Hypertarget{namespace_moving_a8cdb25ca5d7025d2b53d31440c8cd647}\label{namespace_moving_a8cdb25ca5d7025d2b53d31440c8cd647}} 
+\index{Moving@{Moving}!anonymous@{anonymous}}
+\index{anonymous@{anonymous}!Moving@{Moving}}
+\doxysubsubsection{\texorpdfstring{anonymous}{anonymous}}
+{\footnotesize\ttfamily Moving.\+anonymous}
+
+\mbox{\Hypertarget{namespace_moving_a6dcbd3ff3ebf13e07ae21cd69c2c4a4a}\label{namespace_moving_a6dcbd3ff3ebf13e07ae21cd69c2c4a4a}} 
+\index{Moving@{Moving}!auto\_start@{auto\_start}}
+\index{auto\_start@{auto\_start}!Moving@{Moving}}
+\doxysubsubsection{\texorpdfstring{auto\_start}{auto\_start}}
+{\footnotesize\ttfamily Moving.\+auto\+\_\+start}
+
+\mbox{\Hypertarget{namespace_moving_a5f0f55bade48fea8296fff06102d2ddc}\label{namespace_moving_a5f0f55bade48fea8296fff06102d2ddc}} 
+\index{Moving@{Moving}!execute\_cb@{execute\_cb}}
+\index{execute\_cb@{execute\_cb}!Moving@{Moving}}
+\doxysubsubsection{\texorpdfstring{execute\_cb}{execute\_cb}}
+{\footnotesize\ttfamily Moving.\+execute\+\_\+cb}
+
+\mbox{\Hypertarget{namespace_moving_ac3a0b28994021e44ac8d8beeba0a02ae}\label{namespace_moving_ac3a0b28994021e44ac8d8beeba0a02ae}} 
+\index{Moving@{Moving}!MoveAction@{MoveAction}}
+\index{MoveAction@{MoveAction}!Moving@{Moving}}
+\doxysubsubsection{\texorpdfstring{MoveAction}{MoveAction}}
+{\footnotesize\ttfamily Moving.\+Move\+Action}
+

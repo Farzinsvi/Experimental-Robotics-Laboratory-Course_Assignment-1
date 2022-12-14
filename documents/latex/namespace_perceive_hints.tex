@@ -1,0 +1,43 @@
+\hypertarget{namespace_perceive_hints}{}\doxysection{Perceive\+Hints Namespace Reference}
+\label{namespace_perceive_hints}\index{PerceiveHints@{PerceiveHints}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespace_perceive_hints_a1eeff375ffe3f66c9952b3cf295aa1cf}{perc\+\_\+clbk}} (req)
+\item 
+def \mbox{\hyperlink{namespace_perceive_hints_a3c4f86324d026fd4f4bb7b7f09b7a5c9}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Module:
+  PerceiveHints
+Author:
+  Alice Nardelli alice.nardelli98@gmail.com
+ROS nodes used for simulate the behavior of the robot when it looks for hint
+Service :
+  /perceive_hints_service to get the ID of the hypotesis to check
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespace_perceive_hints_a3c4f86324d026fd4f4bb7b7f09b7a5c9}\label{namespace_perceive_hints_a3c4f86324d026fd4f4bb7b7f09b7a5c9}} 
+\index{PerceiveHints@{PerceiveHints}!main@{main}}
+\index{main@{main}!PerceiveHints@{PerceiveHints}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily def Perceive\+Hints.\+main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespace_perceive_hints_a1eeff375ffe3f66c9952b3cf295aa1cf}\label{namespace_perceive_hints_a1eeff375ffe3f66c9952b3cf295aa1cf}} 
+\index{PerceiveHints@{PerceiveHints}!perc\_clbk@{perc\_clbk}}
+\index{perc\_clbk@{perc\_clbk}!PerceiveHints@{PerceiveHints}}
+\doxysubsubsection{\texorpdfstring{perc\_clbk()}{perc\_clbk()}}
+{\footnotesize\ttfamily def Perceive\+Hints.\+perc\+\_\+clbk (\begin{DoxyParamCaption}\item[{}]{req }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}       Description of the callback:
+       This function retrieves the empty request of the PerceiveHints message. Then it perceive if any an hint. and return it
+       Args:
+          srv(PerceiveHints): empty request retrieved by */perceive_hints_service* topic
+       Returns:
+          srv(PerceiveHints): the hints perceived if any
+\end{DoxyVerb}
+ 

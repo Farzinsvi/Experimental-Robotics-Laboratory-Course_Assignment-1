@@ -1,0 +1,44 @@
+\hypertarget{namespace_random_room_server}{}\doxysection{Random\+Room\+Server Namespace Reference}
+\label{namespace_random_room_server}\index{RandomRoomServer@{RandomRoomServer}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespace_random_room_server_a6865483dd931ad231fe4008a1311a73d}{random\+\_\+room\+\_\+clbk}} (req)
+\item 
+def \mbox{\hyperlink{namespace_random_room_server_a7d1e3015004779f36ab5d2e5689484b1}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Module: 
+   RandomRoomServer
+
+Author:
+   Alice Nardelli alice.nardelli98@gmail.com
+ROS nodes used to return a random room belonging to the apartment
+Service :
+   /random_room_service to get the parameter name of the random room
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespace_random_room_server_a7d1e3015004779f36ab5d2e5689484b1}\label{namespace_random_room_server_a7d1e3015004779f36ab5d2e5689484b1}} 
+\index{RandomRoomServer@{RandomRoomServer}!main@{main}}
+\index{main@{main}!RandomRoomServer@{RandomRoomServer}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily def Random\+Room\+Server.\+main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespace_random_room_server_a6865483dd931ad231fe4008a1311a73d}\label{namespace_random_room_server_a6865483dd931ad231fe4008a1311a73d}} 
+\index{RandomRoomServer@{RandomRoomServer}!random\_room\_clbk@{random\_room\_clbk}}
+\index{random\_room\_clbk@{random\_room\_clbk}!RandomRoomServer@{RandomRoomServer}}
+\doxysubsubsection{\texorpdfstring{random\_room\_clbk()}{random\_room\_clbk()}}
+{\footnotesize\ttfamily def Random\+Room\+Server.\+random\+\_\+room\+\_\+clbk (\begin{DoxyParamCaption}\item[{}]{req }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}  Description of the callback:
+  This function retrieves the empty request of the RandomRoom message.
+  Args:
+     srv(RandomRoom): empty request retrieved by */random_room_service* topic
+  Returns:
+     srv(RandomRoom): the parameter name of a random chosen room from the ones of the apartment
+\end{DoxyVerb}
+ 
