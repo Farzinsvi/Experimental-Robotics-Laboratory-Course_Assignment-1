@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <rosparam file="$(find exprob_ass1)/config/rooms.yaml" command="load" />
+    <rosparam file="$(find exprob_ass1)/config/gamesession.yaml" command="load" />
+    <rosparam file="$(find exprob_ass1)/config/Hints.yaml" command="load"  />
+    <node pkg="exprob_ass1" type="RandomRoomServer.py" name="RandomRoomServer" output="screen"/>
+    <node pkg="exprob_ass1" type="AnnounceHypotesis.py" name="AnnounceHypotesis" output="screen"/>
+    <node pkg="exprob_ass1" type="Moving.py" name="Moving" output="screen"/>
+    <node pkg="exprob_ass1" type="CheckCorrect.py" name="CheckCorrect" output="screen"/>
+    <node pkg="exprob_ass1" type="PerceiveHints.py" name="PerceiveHints" output="screen"/>
+    <node pkg="exprob_ass1" type="FSM.py" name="FSM" output="screen"/>
+    
+    
+   
+</launch>
