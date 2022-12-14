@@ -1,0 +1,313 @@
+
+[INFO] [1635582005.977284]: State machine starting in initial state 'OUT_ROOM' with userdata: 
+	['actual_room']
+[INFO] [1635582007.045321]: I am going to the Conservatory
+[INFO] [1635582009.049010]: I am arrived to the Conservatory
+[INFO] [1635582009.052206]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582010.055083]: I am inside Conservatory
+[INFO] [1635582010.059505]: Perceived HP6:where Dining Room
+[INFO] [1635582010.129531]: I am going to the Corridor
+[INFO] [1635582013.134387]: I am arrived to the Corridor
+[INFO] [1635582013.136289]: I am exit from the Conservatory
+[INFO] [1635582013.137285]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582014.184097]: I am going to the Study
+[INFO] [1635582016.187579]: I am arrived to the Study
+[INFO] [1635582016.189428]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582017.191392]: I am inside Study
+[INFO] [1635582017.196520]: Perceived HP2:who Green
+[INFO] [1635582017.244436]: I am going to the Corridor
+[INFO] [1635582021.254606]: I am arrived to the Corridor
+[INFO] [1635582021.256314]: I am exit from the Study
+[INFO] [1635582021.257652]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582022.300577]: I am going to the Study
+[INFO] [1635582024.304470]: I am arrived to the Study
+[INFO] [1635582024.306759]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582025.309499]: I am inside Study
+[INFO] [1635582025.313497]: Perceived HP2:what Rope
+[INFO] [1635582025.362202]: I am going to the Corridor
+[INFO] [1635582029.369000]: I am arrived to the Corridor
+[INFO] [1635582029.371425]: I am exit from the Study
+[INFO] [1635582029.372341]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582030.432746]: I am going to the Lounge
+[INFO] [1635582031.436279]: I am arrived to the Lounge
+[INFO] [1635582031.438714]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582032.442083]: I am inside Lounge
+[INFO] [1635582032.445605]: Nothing perceived
+[INFO] [1635582032.447748]: I am going to the Corridor
+[INFO] [1635582034.451319]: I am arrived to the Corridor
+[INFO] [1635582034.453201]: I am exit from the Lounge
+[INFO] [1635582034.454262]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582035.492359]: I am going to the Lounge
+[INFO] [1635582036.495177]: I am arrived to the Lounge
+[INFO] [1635582036.496989]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582037.500008]: I am inside Lounge
+[INFO] [1635582037.503083]: Nothing perceived
+[INFO] [1635582037.504718]: I am going to the Corridor
+[INFO] [1635582039.508463]: I am arrived to the Corridor
+[INFO] [1635582039.512594]: I am exit from the Lounge
+[INFO] [1635582039.513850]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582040.551365]: I am going to the DiningRoom
+[INFO] [1635582041.554276]: I am arrived to the DiningRoom
+[INFO] [1635582041.556487]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582042.559069]: I am inside DiningRoom
+[INFO] [1635582042.563777]: Perceived HP1:what Candlestick
+[INFO] [1635582042.606439]: I am going to the Corridor
+[INFO] [1635582045.611971]: I am arrived to the Corridor
+[INFO] [1635582045.613898]: I am exit from the DiningRoom
+[INFO] [1635582045.615288]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582046.651267]: I am going to the Conservatory
+[INFO] [1635582048.655151]: I am arrived to the Conservatory
+[INFO] [1635582048.656779]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582049.659740]: I am inside Conservatory
+[INFO] [1635582049.664333]: Perceived HP4:what Wrench
+[INFO] [1635582049.701509]: I am going to the Corridor
+[INFO] [1635582052.707215]: I am arrived to the Corridor
+[INFO] [1635582052.709283]: I am exit from the Conservatory
+[INFO] [1635582052.710207]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582053.746178]: I am going to the BilliardRoom
+[INFO] [1635582054.748833]: I am arrived to the BilliardRoom
+[INFO] [1635582054.750648]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582055.753823]: I am inside BilliardRoom
+[INFO] [1635582055.758893]: Perceived HP1:who White
+[INFO] [1635582055.799392]: I am going to the Corridor
+[INFO] [1635582059.805976]: I am arrived to the Corridor
+[INFO] [1635582059.808323]: I am exit from the BilliardRoom
+[INFO] [1635582059.809271]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582060.844053]: I am going to the Study
+[INFO] [1635582062.848145]: I am arrived to the Study
+[INFO] [1635582062.850152]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582063.853225]: I am inside Study
+[INFO] [1635582063.856595]: Nothing perceived
+[INFO] [1635582063.858190]: I am going to the Corridor
+[INFO] [1635582067.864459]: I am arrived to the Corridor
+[INFO] [1635582067.866412]: I am exit from the Study
+[INFO] [1635582067.867826]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582068.910013]: I am going to the Kitchen
+[INFO] [1635582070.914256]: I am arrived to the Kitchen
+[INFO] [1635582070.916690]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582071.919480]: I am inside Kitchen
+[INFO] [1635582071.923833]: Perceived HP4:where Lounge
+[INFO] [1635582071.959870]: I am going to the Corridor
+[INFO] [1635582074.965601]: I am arrived to the Corridor
+[INFO] [1635582074.967567]: I am exit from the Kitchen
+[INFO] [1635582074.968488]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582076.005090]: I am going to the Conservatory
+[INFO] [1635582078.009251]: I am arrived to the Conservatory
+[INFO] [1635582078.012007]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582079.015385]: I am inside Conservatory
+[INFO] [1635582079.019087]: Nothing perceived
+[INFO] [1635582079.020643]: I am going to the Corridor
+[INFO] [1635582082.025176]: I am arrived to the Corridor
+[INFO] [1635582082.028294]: I am exit from the Conservatory
+[INFO] [1635582082.029188]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582083.063992]: I am going to the Kitchen
+[INFO] [1635582085.067620]: I am arrived to the Kitchen
+[INFO] [1635582085.069633]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582086.073162]: I am inside Kitchen
+[INFO] [1635582086.077707]: Perceived HP1:where Study
+[INFO] [1635582086.112263]: I am going to the Corridor
+[INFO] [1635582089.117218]: I am arrived to the Corridor
+[INFO] [1635582089.119137]: I am exit from the Kitchen
+[INFO] [1635582089.120108]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582090.165333]: I am going to the OracleRoom
+[INFO] [1635582100.179210]: I am arrived to the OracleRoom
+[INFO] [1635582100.183143]: State machine transitioning 'OUT_ROOM':'go_to_oracle'-->'ORACLE_ROOM'
+[INFO] [1635582101.185705]: I am inside Oracle Room
+[INFO] [1635582101.189743]: Announce to Oracle: 
+[INFO] [1635582101.190865]: White with the Candlestick in the Study
+[INFO] [1635582101.194923]: HP1 hypotesis is not correct 
+[INFO] [1635582101.200421]: I am going to the Corridor
+[INFO] [1635582116.221980]: I am arrived to the Corridor
+[INFO] [1635582116.248364]: I am exit from Oracle Room
+[INFO] [1635582116.249516]: State machine transitioning 'ORACLE_ROOM':'not_correct'-->'OUT_ROOM'
+[INFO] [1635582117.280785]: I am going to the Library
+[INFO] [1635582120.285863]: I am arrived to the Library
+[INFO] [1635582120.287696]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582121.290443]: I am inside Library
+[INFO] [1635582121.296409]: Perceived HP4:what Wrench
+[INFO] [1635582121.328884]: I am going to the Corridor
+[INFO] [1635582125.335989]: I am arrived to the Corridor
+[INFO] [1635582125.338328]: I am exit from the Library
+[INFO] [1635582125.339426]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582126.367252]: I am going to the Lounge
+[INFO] [1635582127.370103]: I am arrived to the Lounge
+[INFO] [1635582127.372265]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582128.375141]: I am inside Lounge
+[INFO] [1635582128.379587]: Perceived HP3:who Green
+[INFO] [1635582128.412291]: I am going to the Corridor
+[INFO] [1635582130.416266]: I am arrived to the Corridor
+[INFO] [1635582130.418625]: I am exit from the Lounge
+[INFO] [1635582130.419837]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582131.447941]: I am going to the Library
+[INFO] [1635582134.452952]: I am arrived to the Library
+[INFO] [1635582134.455102]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582135.457859]: I am inside Library
+[INFO] [1635582135.463299]: Nothing perceived
+[INFO] [1635582135.465006]: I am going to the Corridor
+[INFO] [1635582139.472012]: I am arrived to the Corridor
+[INFO] [1635582139.474203]: I am exit from the Library
+[INFO] [1635582139.475204]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582140.501694]: I am going to the Kitchen
+[INFO] [1635582142.505480]: I am arrived to the Kitchen
+[INFO] [1635582142.507695]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582143.510690]: I am inside Kitchen
+[INFO] [1635582143.515393]: Perceived HP4:where Kitchen
+[INFO] [1635582143.550802]: I am going to the Corridor
+[INFO] [1635582146.555912]: I am arrived to the Corridor
+[INFO] [1635582146.557776]: I am exit from the Kitchen
+[INFO] [1635582146.558726]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582147.597872]: I am going to the Lounge
+[INFO] [1635582148.600935]: I am arrived to the Lounge
+[INFO] [1635582148.603244]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582149.606695]: I am inside Lounge
+[INFO] [1635582149.619360]: Perceived HP1:who White
+[INFO] [1635582149.624839]: the perceived hint has an id associated to an incorrect hypotesis, I will discard it
+[INFO] [1635582149.627705]: I am going to the Corridor
+[INFO] [1635582151.631691]: I am arrived to the Corridor
+[INFO] [1635582151.635483]: I am exit from the Lounge
+[INFO] [1635582151.636644]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582152.676561]: I am going to the Lounge
+[INFO] [1635582153.678943]: I am arrived to the Lounge
+[INFO] [1635582153.680966]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582154.683961]: I am inside Lounge
+[INFO] [1635582154.688390]: Perceived HP2:who Scarlett
+[INFO] [1635582154.725651]: I am going to the Corridor
+[INFO] [1635582156.729990]: I am arrived to the Corridor
+[INFO] [1635582156.731984]: I am exit from the Lounge
+[INFO] [1635582156.732907]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582157.783245]: I am going to the Library
+[INFO] [1635582160.788332]: I am arrived to the Library
+[INFO] [1635582160.792044]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582161.795093]: I am inside Library
+[INFO] [1635582161.799715]: Perceived HP4:where Lounge
+[INFO] [1635582161.846923]: I am going to the Corridor
+[INFO] [1635582165.852618]: I am arrived to the Corridor
+[INFO] [1635582165.855688]: I am exit from the Library
+[INFO] [1635582165.856654]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582166.907367]: I am going to the Lounge
+[INFO] [1635582167.910070]: I am arrived to the Lounge
+[INFO] [1635582167.912104]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582168.915443]: I am inside Lounge
+[INFO] [1635582168.920173]: Perceived HP4:what Wrench
+[INFO] [1635582168.946989]: I am going to the Corridor
+[INFO] [1635582170.951379]: I am arrived to the Corridor
+[INFO] [1635582170.954933]: I am exit from the Lounge
+[INFO] [1635582170.955850]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582171.995937]: I am going to the BilliardRoom
+[INFO] [1635582172.999048]: I am arrived to the BilliardRoom
+[INFO] [1635582173.000913]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582174.003753]: I am inside BilliardRoom
+[INFO] [1635582174.007995]: Perceived HP1:who White
+[INFO] [1635582174.011950]: the perceived hint has an id associated to an incorrect hypotesis, I will discard it
+[INFO] [1635582174.013817]: I am going to the Corridor
+[INFO] [1635582178.019953]: I am arrived to the Corridor
+[INFO] [1635582178.021886]: I am exit from the BilliardRoom
+[INFO] [1635582178.023064]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582179.078307]: I am going to the BallRoom
+[INFO] [1635582182.084322]: I am arrived to the BallRoom
+[INFO] [1635582182.086702]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582183.089486]: I am inside BallRoom
+[INFO] [1635582183.093128]: Nothing perceived
+[INFO] [1635582183.094855]: I am going to the Corridor
+[INFO] [1635582187.101297]: I am arrived to the Corridor
+[INFO] [1635582187.103219]: I am exit from the BallRoom
+[INFO] [1635582187.104162]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582188.147455]: I am going to the Lounge
+[INFO] [1635582189.150064]: I am arrived to the Lounge
+[INFO] [1635582189.151794]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582190.155137]: I am inside Lounge
+[INFO] [1635582190.158528]: Nothing perceived
+[INFO] [1635582190.160199]: I am going to the Corridor
+[INFO] [1635582192.163862]: I am arrived to the Corridor
+[INFO] [1635582192.165677]: I am exit from the Lounge
+[INFO] [1635582192.166801]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582193.204908]: I am going to the BallRoom
+[INFO] [1635582196.209130]: I am arrived to the BallRoom
+[INFO] [1635582196.210853]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582197.213749]: I am inside BallRoom
+[INFO] [1635582197.218133]: Nothing perceived
+[INFO] [1635582197.220189]: I am going to the Corridor
+[INFO] [1635582201.226588]: I am arrived to the Corridor
+[INFO] [1635582201.229292]: I am exit from the BallRoom
+[INFO] [1635582201.231103]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582202.271421]: I am going to the Kitchen
+[INFO] [1635582204.274388]: I am arrived to the Kitchen
+[INFO] [1635582204.276695]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582205.280258]: I am inside Kitchen
+[INFO] [1635582205.285062]: Perceived HP4:what Wrench
+[INFO] [1635582205.313544]: I am going to the Corridor
+[INFO] [1635582208.318228]: I am arrived to the Corridor
+[INFO] [1635582208.320221]: I am exit from the Kitchen
+[INFO] [1635582208.321113]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582209.366260]: I am going to the Library
+[INFO] [1635582212.371385]: I am arrived to the Library
+[INFO] [1635582212.373176]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582213.376843]: I am inside Library
+[INFO] [1635582213.383222]: Nothing perceived
+[INFO] [1635582213.385505]: I am going to the Corridor
+[INFO] [1635582217.391835]: I am arrived to the Corridor
+[INFO] [1635582217.393729]: I am exit from the Library
+[INFO] [1635582217.394617]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582218.432662]: I am going to the Hall
+[INFO] [1635582221.438278]: I am arrived to the Hall
+[INFO] [1635582221.442296]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582222.445542]: I am inside Hall
+[INFO] [1635582222.449440]: Nothing perceived
+[INFO] [1635582222.451205]: I am going to the Corridor
+[INFO] [1635582227.459042]: I am arrived to the Corridor
+[INFO] [1635582227.460792]: I am exit from the Hall
+[INFO] [1635582227.461653]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582228.495151]: I am going to the Library
+[INFO] [1635582231.500757]: I am arrived to the Library
+[INFO] [1635582231.502960]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582232.505839]: I am inside Library
+[INFO] [1635582232.511451]: Perceived HP1:where Study
+[INFO] [1635582232.515192]: The perceived hint has an ID associated to an incorrect hypotesis: I will discard it
+[INFO] [1635582232.517069]: I am going to the Corridor
+[INFO] [1635582236.523307]: I am arrived to the Corridor
+[INFO] [1635582236.525593]: I am exit from the Library
+[INFO] [1635582236.526449]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582237.565223]: I am going to the Kitchen
+[INFO] [1635582239.569315]: I am arrived to the Kitchen
+[INFO] [1635582239.571029]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582240.573659]: I am inside Kitchen
+[INFO] [1635582240.577645]: Perceived HP3:what Lead Pipe
+[INFO] [1635582240.620299]: I am going to the Corridor
+[INFO] [1635582243.624757]: I am arrived to the Corridor
+[INFO] [1635582243.628361]: I am exit from the Kitchen
+[INFO] [1635582243.629249]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582244.666122]: I am going to the BallRoom
+[INFO] [1635582247.670533]: I am arrived to the BallRoom
+[INFO] [1635582247.672356]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582248.675233]: I am inside BallRoom
+[INFO] [1635582248.678407]: Nothing perceived
+[INFO] [1635582248.680041]: I am going to the Corridor
+[INFO] [1635582252.686534]: I am arrived to the Corridor
+[INFO] [1635582252.688481]: I am exit from the BallRoom
+[INFO] [1635582252.689550]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582253.729937]: I am going to the Kitchen
+[INFO] [1635582255.733146]: I am arrived to the Kitchen
+[INFO] [1635582255.735019]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582256.738216]: I am inside Kitchen
+[INFO] [1635582256.742131]: Nothing perceived
+[INFO] [1635582256.743941]: I am going to the Corridor
+[INFO] [1635582259.749285]: I am arrived to the Corridor
+[INFO] [1635582259.751990]: I am exit from the Kitchen
+[INFO] [1635582259.753461]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582260.815358]: I am going to the BilliardRoom
+[INFO] [1635582261.818457]: I am arrived to the BilliardRoom
+[INFO] [1635582261.820400]: State machine transitioning 'OUT_ROOM':'move_to_a_room'-->'INSIDE_ROOM'
+[INFO] [1635582262.823213]: I am inside BilliardRoom
+[INFO] [1635582262.827644]: Perceived HP3:where Conservatory'
+[INFO] [1635582262.860533]: I am going to the Corridor
+[INFO] [1635582266.866851]: I am arrived to the Corridor
+[INFO] [1635582266.868608]: I am exit from the BilliardRoom
+[INFO] [1635582266.869971]: State machine transitioning 'INSIDE_ROOM':'exit_from_room'-->'OUT_ROOM'
+[INFO] [1635582267.915544]: I am going to the OracleRoom
+[INFO] [1635582277.929880]: I am arrived to the OracleRoom
+[INFO] [1635582277.931581]: State machine transitioning 'OUT_ROOM':'go_to_oracle'-->'ORACLE_ROOM'
+[INFO] [1635582278.933815]: I am inside Oracle Room
+[INFO] [1635582278.938100]: Announce to Oracle: 
+[INFO] [1635582278.939564]: Green with the Lead Pipe in the Conservatory'
+[INFO] [1635582278.944673]: HP3 hypotesis is correct!! 
+[INFO] [1635582278.946052]: State machine terminating 'ORACLE_ROOM':'correct':'game_finished'
