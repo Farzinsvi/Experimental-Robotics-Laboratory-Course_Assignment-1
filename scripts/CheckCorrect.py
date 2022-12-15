@@ -2,8 +2,6 @@
 '''
 Module:
   CheckCorrect
-Author:
-   Alice Nardelli alice.nardelli98@gmail.com
 ROS nodes used for check if the current consistent hypothesis is correct or not.
 Service :
    /check_correct_service to get the ID of the hypotesis to check
