@@ -2,8 +2,6 @@
 '''
 Module:
    Moving
-Author:
-  Alice Nardelli alice.nardelli98@gmail.com
 ROS nodes used to similate robot movement
 Action Service :
   /move_action_server to simulate the robot movement from a starting point to a goal one
