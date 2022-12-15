@@ -2,8 +2,6 @@
 """
 Module:
   PerceiveHints
-Author:
-  Alice Nardelli alice.nardelli98@gmail.com
 ROS nodes used for simulate the behavior of the robot when it looks for hint
 Service :
   /perceive_hints_service to get the ID of the hypotesis to check
