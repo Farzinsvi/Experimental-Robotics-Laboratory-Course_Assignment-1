@@ -2,8 +2,6 @@
 """
 Module:
     FSM
-Author:
-    Alice Nardelli alice.nardelli98@gmail.com
 ROS node to implement the finite state machine. Inside this node is contained the entire simulation
 Service Client:
 	/random_room_service to get a random room
