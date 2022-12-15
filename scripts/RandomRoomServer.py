@@ -2,9 +2,6 @@
 """
 Module: 
    RandomRoomServer
-
-Author:
-   Alice Nardelli alice.nardelli98@gmail.com
 ROS nodes used to return a random room belonging to the apartment
 Service :
    /random_room_service to get the parameter name of the random room
