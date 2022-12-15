@@ -60,7 +60,7 @@ In the **sequence diagram** it is possible to see the behaviour of the overall s
 
 ## Installation and running procedures
 
-Clone the [exprob_ass1 repository](https://github.com/AliceNardelli/exprob_ass1) and build the workspace.
+Clone the [exprob_ass1 repository](https://github.com/Farzinsvi/exprob_ass1) and build the workspace.
 In one terminal run the ros master and then the ontology: 
 > rosrun armor execute it.emarolab.armor.ARMORMainService 
 
